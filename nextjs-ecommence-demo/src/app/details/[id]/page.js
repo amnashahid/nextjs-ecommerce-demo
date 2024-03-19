@@ -18,7 +18,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-1 bg-white justify-items-center"  >
+        <div className="grid grid-cols-1 sm:grid-cols-1 bg-white justify-items-center p-10"  >
             <div className="grid grid-cols-1 sm:grid-cols-2 w-[80%]"  >
                 <div className="grid grid-cols-1 sm:grid-cols-1 p-4 row-span-3" >
                     <img className='w-[100%] place-content-center' src={product?.thumbnail} alt={product?.title} />
