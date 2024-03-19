@@ -43,7 +43,7 @@ export default function Home() {
         <SectionTitle t1='Feature products' t2='BEST SELLER PRODUCT' t3='this is sub sub heading' />
         <div className="grid grid-cols-1 sm:grid-cols-5  justify-items-center" >
           {products?.map(product => (
-            <div className="grid grid-cols-1 sm:grid-cols-1 p-4" >
+            <div className="grid grid-cols-1 sm:grid-cols-1 p-4" key={'p' + product.id}>
               <ProductCard
                 key={product.id}
                 id={product.id}
