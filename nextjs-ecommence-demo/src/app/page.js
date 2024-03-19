@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       {totals > products.length && (
         <div className="  justify-items-center grid grid-cols-1 sm:grid-cols-1 m-10 ">
-          <div className=" pt-4 pb-4 w-[280px] text-center text-emerald-500 border-emerald-500 border-2" onClick={fetchProducts}>
+          <div className=" pt-4 pb-4 w-[280px] text-center text-emerald-500 border-emerald-500 border-2 cursor-pointer" onClick={fetchProducts}>
             LOAD MORE PRODUCTS
           </div>
         </div>)
